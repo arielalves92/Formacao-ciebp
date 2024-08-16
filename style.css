@@ -2,7 +2,6 @@ body{
     color: white;
     background: black;
     margin: 0px;
-    font-family: "Roboto", sans-serif;
     margin-bottom: 100px;
 }
 header{
@@ -16,9 +15,6 @@ header{
 }
 h1 {
     font-size: 40px;
-}
-p {
-    font-size: 20px;
 }
 img {
     height: 200px;
@@ -37,7 +33,8 @@ img {
     border: 4px solid green;
 }
 .chamada {
-    background: rgb(220,255,10);
+    background: rgb(255,10,10);
+    color: rgb(10,255,10);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
