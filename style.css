@@ -17,34 +17,37 @@ header{
 h1 {
     font-size: 40px;
 }
+p {
+    font-size: 20px;
+}
 img {
     height: 200px;
 }
-.outros-videos{
+.categoria-videos{
     display: flex;
     overflow-x: auto;
     gap: 10px;
 }
-.outros-videos img{
+.categoria-videos img{
     opacity: 0.5;
     height: 200px;
 }
-.outros-videos img:hover {
+.categoria-videos img:hover {
     opacity: 1.0;
     border: 4px solid green;
 }
-.chamada.principal {
+.chamada {
     background: rgb(184,156,213);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
 }
-.outras-indicacoes{
+.categoria{
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 50px;
 }
-.outros-videos h2 {
+.categoria h2 {
     color: rgb(42,122,228)
 }
