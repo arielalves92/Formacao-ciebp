@@ -41,12 +41,12 @@ img {
 }
 
 .principal {
-    background: rgb(184, 156, 213);
+    background: rgb(70, 8, 136);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
-    color: black;
+    color: rgb(142, 110, 7);
 }
 
 .fila {
