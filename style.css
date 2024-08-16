@@ -5,7 +5,4 @@ body {
 header {
     border-bottom: solid 3px rgb(111,0,255);
 }
-.outros-videos{
-    display: flex;
-    overflow-x: auto;
-}
+
