@@ -10,9 +10,8 @@ header{
     font-size: 32px;
     color: rgb(42,122,228)
 }
-.chamada-texto {
+.principal-texto {
     margin-right: 5%;
-    color: rgb(10,255,10);
 }
 h1 {
     font-size: 40px;
@@ -20,31 +19,31 @@ h1 {
 img {
     height: 200px;
 }
-.categoria-videos{
+.fila-videos{
     display: flex;
     overflow-x: auto;
     gap: 10px;
 }
-.categoria-videos img{
+.fila-videos img{
     opacity: 0.5;
     height: 200px;
 }
-.categoria-videos img:hover {
+.fila-videos img:hover {
     opacity: 1.0;
     border: 4px solid green;
 }
-.chamada {
-    background: rgb(255,10,10);
+.principal {
+    background: rgb(184,156,213);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
 }
-.categoria{
+.fila{
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 50px;
 }
-.categoria h2 {
+.fila h2 {
     color: rgb(42,122,228)
 }
