@@ -10,8 +10,9 @@ header {
     padding-bottom: 20px;
     font-size: 100px;
     color: rgb(255, 255, 0);
-    background: black;
 }
 section {
-
+    background: black;
+    padding-bottom: 80px ;
+    padding-top: 80px;
 }
