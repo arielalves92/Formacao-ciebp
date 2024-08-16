@@ -1,38 +1,26 @@
-body {
-    color: rgb(255, 255, 0);
-    background: rgb(255, 0, 0);
+body{
+    color: white;
+    background: black;
     margin: 0px;
+    font-family: "Roboto", sans-serif;
     margin-bottom: 100px;
 }
-
-header {
-    border-bottom: solid 3px rgb(111, 0, 255);
-    padding-bottom: 20px;
-    font-size: 40px;
-    color: rgb(255, 255, 0);
+header{
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42,122,228)
 }
-
-.chamada-principal {
-    background: rgb(184,156,213);
-    padding-bottom: 80px;
-    padding-top: 80px;
-    display: flex;
-    justify-content: center;
-}
-
-
-.chamada {
+.chamada-texto {
     margin-right: 5%;
-    color: rgb(255, 255, 0);
 }
-
-.outras-indicacoes {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 50px;
+h1 {
+    font-size: 40px;
 }
-
-.outros-videos {
+img {
+    height: 200px;
+}
+.outros-videos{
     display: flex;
     overflow-x: auto;
     gap: 10px;
@@ -43,11 +31,20 @@ header {
 }
 .outros-videos img:hover {
     opacity: 1.0;
-    border: 4px solid yellow;
+    border: 4px solid green;
 }
-img {
-    height: 200px;
+.chamada.principal {
+    background: rgb(184,156,213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
 }
-h1 {
-    font-size: 40px;
+.outras-indicacoes{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.outros-videos h2 {
+    color: rgb(42,122,228)
 }
